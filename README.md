@@ -15,7 +15,7 @@ $ git clone {repo addr}
 $ cd first-repo
 $ uv venv
 $ uv sync
-$ uv python main.py
+$ uv run python main.py
 ```
 
 ## Installation
