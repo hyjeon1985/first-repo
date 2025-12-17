@@ -13,8 +13,9 @@ See [Demo](https://www.google.com/)
 ```shell
 $ git clone {repo addr}
 $ cd first-repo
-$ pip install -r requirements.txt
-$ python main.py
+$ uv venv
+$ uv sync
+$ uv python main.py
 ```
 
 ## Installation
